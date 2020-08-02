@@ -1,0 +1,167 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    background: black;
+
+    color: white;
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container h1{
+
+    text-align: center;
+    font-size: 50px;
+    margin:0;
+    padding-left: 280px;
+    color: rgb(76, 173, 211);
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.menu-nav a{
+    text-decoration: none;
+    padding: 23px;
+    font-size: 15px;
+    color: white;
+}
+
+.menu-nav a:hover{
+    border: double blue;
+}
+ 
+/*-------- Fim cabeçalho --------*/
+
+/*-------- começo do Menu --------*/
+
+.capa{
+    background-image: url(../IMG/debaixo.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa .botao{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 25px;
+    background-color:rgba(118, 143, 226, 0.466);
+}
+
+.capa .botao:hover{
+    background-color: rgb(88, 152, 235);
+    border: none;
+}
+
+/*---------Fim de Menu-----------*/
+
+/*-------- Sobre ODS -----------*/
+
+.ods{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+}
+
+.image{
+    flex: 50%;
+    padding: 0px 50px;
+    width: 100%;
+}
+.sobre-ods{
+
+    flex: 50%;
+    padding: 0px 50px;
+
+}
+
+.sobre-ods h1{
+    font-size: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.sobre-ods p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*-------- Fim Sobre ODS -------*/
+
+/*------------ Começo ODS - Água ----------*/
+
+.ODS-vida{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+    background-color: rgb(219, 239, 255);
+}
+
+.imagem{
+    flex: 50%;
+    padding: 0px 50px;
+    width: 100%;
+}
+.sobreods-vida{
+
+    flex: 50%;
+    padding: 0px 50px;
+
+}
+
+.sobreods-vida h1{
+    font-size: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.sobreods-vida p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+/*----------- Fim ODS Água -----------*/
+
+/*---------------- Começo Objetivos -------------*/
+
+.sobre-objetivos h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre-objetivos p{
+    text-align: justify;
+}
+
+.imagem-agua{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*------------- FIm dos objetivos ------------*/
+
+/*-------------- Começo Rodapé ------------*/
+
+.rodape{
+    text-align: center;
+    background-color: rgb(77, 216, 235);
+    padding: 20px;
+}
